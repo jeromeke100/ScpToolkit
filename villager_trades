@@ -1,0 +1,11 @@
+/summon villager ~ ~1 ~ {VillagerData:
+	{
+	profession:armorer,level:99,type:snow},Silent:1,Invulnerable:1,NoAI:1,CustomName:"\"Jelmer\"",
+	Offers:{Recipes:[
+		{buy:{id:paper,Count:4},buyB:{id:gunpowder,Count:3},
+		sell:{id:zombie_spawn_egg,Count:1,tag:{CanPlaceOn:["minecraft:stone"]}},
+		rewardExp:0b,
+		maxUses:9999999}
+		]
+	}
+}
